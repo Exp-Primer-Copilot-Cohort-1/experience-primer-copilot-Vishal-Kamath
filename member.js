@@ -1,3 +1,7 @@
 function skillMember() {
-    // Your code here
+    return {
+        name: 'skillMember',
+        restrict: 'E',
+        templateUrl: 'views/skill-member.html'
+    };
 }
